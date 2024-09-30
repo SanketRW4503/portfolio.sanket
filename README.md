@@ -12,7 +12,7 @@ Welcome to my portfolio website showcasing my projects and skills as a web devel
 - Contact form and social media links
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript, React, Tailwind CSS
+- **Frontend**: HTML, CSS, JavaScript, React.js , Tailwind CSS
 - **Version Control**: Git & GitHub
 
 
