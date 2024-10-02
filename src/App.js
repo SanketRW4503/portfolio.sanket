@@ -11,12 +11,18 @@ import { RxDoubleArrowUp } from "react-icons/rx";
 import ChatBot from './Components/ChatBot';
 import { BsRobot } from "react-icons/bs";
 import { IoMdClose } from "react-icons/io";
+
+
 function App() {
   const [showButton, setShowButton] = useState(false);
   const [chatbot, setChatBot] = useState(false);
+
   const [messages, setMessages] = useState([
     { message: "What would you like to know about Sanket?", from: "gemini" },
   ]);
+
+
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,8 +62,9 @@ function App() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className='fixed bottom-20 right-6 bg-gradient-to-r from-red-500 to-red-700 p-2 rounded-lg text-white text-4xl font-bold hover:shadow-inner'>
+          className='fixed bottom-20 right-6  bg-red-500 p-4 rounded-lg text-white text-2xl font-bold hover:scale-105 transition-transform transform hover:bg-red-700'>
           <RxDoubleArrowUp />
+
         </button>
       )}
 
@@ -68,15 +75,15 @@ function App() {
       }
 
       <div
-        className='flex items-center fixed bottom-4 right-6 p-2 rounded-lg bg-gradient-to-r from-red-500 to-red-700 text-white text-2xl cursor-pointer hover:scale-105 transition-transform transform hover:shadow-lg'
-        onClick={() => setChatBot(!chatbot)}
+        className='flex items-center fixed bottom-4 right-6 p-2 rounded-lg  bg-red-500  text-white text-2xl cursor-pointer hover:scale-105 transition-transform transform hover:bg-red-700'
+        onClick={() => { setChatBot(!chatbot); }}
       >
 
-        <div className='text-white p-2  '>
+        <div className='text-white p-2  ' >
+
           {
             chatbot ? <IoMdClose /> : <BsRobot />
           }
-
         </div>
       </div>
     </>
