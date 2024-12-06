@@ -1,7 +1,7 @@
 export const myInfo = {
     firstName: 'Sanket',
     lastName: 'Waghmare',
-    profile_picture:'https://res.cloudinary.com/s-kart/image/upload/v1727529657/xtfjonjetp7s8hjjxpru.jpg',
+    profile_picture:'https://res.cloudinary.com/s-kart/image/upload/v1733474047/vefe6djrvhpi04pra2fm.jpg',
     about: "Hello! I'm Sanket, a passionate Computer Engineer from Mumbai and a 2024 graduate. I specialize in web development and enjoy creating software solutions that bring ideas to life. With a strong technical foundation in modern web technologies, I'm focused on writing clean, efficient code and continuously improving my skills.As an entry-level web developer, I excel at solving problems and turning complex challenges into simple, functional solutions. Along with my technical expertise, I bring excellent communication and leadership skills, ensuring that I'm not only able to code but also deliver high-quality results.I'm always excited to work on new projects and build software that makes a difference",
     skills: [
         {
